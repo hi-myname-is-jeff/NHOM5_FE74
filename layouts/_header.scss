@@ -1,0 +1,31 @@
+header{
+    font-size: 13px;
+   transition: all 0.5s;
+    .content1{
+        background-color: $color-gray-1;
+    }
+    .content1 a{
+        color: $color-dark-1;
+        font-weight: 700;
+        
+    }
+    .content1 .nav-item .dropdown a{
+        display: flex;
+    }
+    .content2 a{
+      
+        color: $color-dark-1;
+        padding: 30px;
+        font-weight: 900;
+    }
+    .content2 .navbar-brand i{
+        font-size: 40px;
+    }
+    .content2{
+        box-shadow: 0 0 3px;
+    }
+   .content1 a:hover,
+   .content2 a:hover{
+color: blue;
+   } 
+}

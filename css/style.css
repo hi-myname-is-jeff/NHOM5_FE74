@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+header {
+  font-size: 13px;
+  transition: all 0.5s;
+}
+header .content1 {
+  background-color: #f2f2f2;
+}
+header .content1 a {
+  color: #00095b;
+  font-weight: 700;
+}
+header .content1 .nav-item .dropdown a {
+  display: flex;
+}
+header .content2 a {
+  color: #00095b;
+  padding: 30px;
+  font-weight: 900;
+}
+header .content2 .navbar-brand i {
+  font-size: 40px;
+}
+header .content2 {
+  box-shadow: 0 0 3px;
+}
+header .content1 a:hover,
+header .content2 a:hover {
+  color: blue;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.carousel p {
+  font-size: 20px;
+}
+.carousel .carousel-caption {
+  margin-bottom: 400px;
+  margin-left: -600px;
+}
+.carousel img {
+  width: 100%;
+}
+.carousel .carousel p::after {
+  content: "";
+  width: 50%;
+  display: block;
+  background-color: white;
+  height: 2px;
+  transform: scaleX(0);
+}
+.carousel .carousel p:hover::after {
+  transform: scaleX(1);
+}
+
+.carousel-img {
+  padding: 120px 0;
+}
+.carousel-img img {
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+}
+.content h1 {
+  font-size: 50px;
+  color: #00095b;
+}
+.content p {
+  font-size: 20px;
+  color: gray;
+}
+.content .btn {
+  background-color: #00095b;
+  padding: 10px 40px;
+  border-radius: 40px;
+}
+.content .btn:hover {
+  background-color: blue;
+}
+.content .img {
+  display: flex;
+  padding: 120px 350px;
+  box-shadow: 0 4px 5px;
+  color: #00095b;
+}
+.content .img .card {
+  box-shadow: 0 4px 5px gray;
+  transition: all 0.5s;
+}
+.content .img .card:hover {
+  transform: translate3d(1);
+}
+.content .img img {
+  width: 320px;
+}
+.content .img h4 {
+  margin-left: -136px;
+  margin-top: -12px;
+}
+.content .img .img1 {
+  margin: 0 90px;
+}
+.content .img .img1 h4 {
+  margin-left: -60px;
+}
+.content p {
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+.carousel{
+    position: relative;
+    h3{
+        font-size: $fs-1;
+        font-weight: 700;
+    }
+    p{
+        font-size: $fs-2;
+    }
+    .carousel-caption{
+        margin-bottom:  400px;
+        margin-left: -600px;
+}
+img{
+    width: 100%;
+}
+.carousel p{
+    
+&::after{
+    content: "";
+width: 50%;
+display: block;
+background-color: white;
+height: 2px;
+transform: scaleX(0);
+}
+&:hover{
+    &::after{
+        transform: scaleX(1);
+    }
+}
+}
+
+    
+}

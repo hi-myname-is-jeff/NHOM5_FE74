@@ -1,0 +1,51 @@
+.content{
+    text-align: center;
+    h1{
+        font-size: 50px;
+        color: $color-dark-1;
+    }
+    p{
+        font-size: 20px;
+        color: gray;
+    }
+    .btn{
+background-color: $color-dark-1;
+padding: 10px 40px;
+border-radius: 40px;
+&:hover{
+    background-color: blue;
+}
+    }
+    .img{
+        display: flex;
+        padding: 120px 350px;
+        box-shadow: 0 4px 5px;
+        color: $color-dark-1;
+       .card{
+box-shadow: 0 4px 5px gray ;
+transition: all 0.5s;
+}
+.card:hover{
+transform: translate3d(1);
+}
+        img{
+            width: 320px;
+        }
+        h4{
+            margin-left: -136px;
+    margin-top: -12px;
+   
+        }
+        .img1 {
+            margin: 0 90px;
+            h4{
+            margin-left: -60px;
+            }
+        
+        }
+    }
+    p{
+        font-weight: 900;
+    }
+    
+}
